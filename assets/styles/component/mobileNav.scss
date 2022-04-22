@@ -1,0 +1,45 @@
+i{
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav{
+  display: flex;
+  background-color: inherit;
+  justify-content: center;
+}
+.wrapper-mobile{
+  position: absolute;
+  top: 45px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+.nav-content-mob{
+  width: 100%;
+  background-color:#454545;
+  height: 100vh;
+}
+.nav-content-mob li{
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  padding: 20px 0px;
+  stroke: white;
+  fill: white;
+}
+.nav-content-mob li:hover{
+  background-color: #fff;
+  color: #000;
+  stroke: black;
+  fill: black;
+}
+

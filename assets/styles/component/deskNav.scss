@@ -1,0 +1,28 @@
+.nav-content-desk{
+  display: flex;
+}
+.nav-content-desk li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 3px;
+  margin-right: 25px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  list-style: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  color: #fff;
+  stroke: white;
+  fill: white;
+}
+.nav-content-desk li:last-child{
+  margin-right: 0px;
+}
+.nav-content-desk li:hover{
+  background-color: #fff;
+  color: #000;
+  stroke: black;
+  fill: black;
+}
